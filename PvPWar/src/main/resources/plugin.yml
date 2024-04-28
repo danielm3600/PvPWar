@@ -1,0 +1,68 @@
+name: PvPWar
+version: 1.0
+main: me.pvpgod.pvpwar.PvPWar
+api-version: '1.19'
+author: pvpgod
+description: Plugin for PvPWar.
+commands:
+  broadcast:
+    aliases: [bc]
+  god:
+    description: Toggle god mode.
+  drop:
+    description: Toggle drop mode.
+  staffchat:
+    description: Toggle staff chat.
+  reportbug:
+    description: Report a bug.
+  reportbugs:
+    description: Lists all the bug reports.
+  deletebugreport:
+    description: Delete bug report.
+  report:
+    description: Report a player.
+  reports:
+    description: View reports of a player.
+  help:
+    aliases: ["?"]
+  me:
+    description: Me command.
+  rules:
+    description: Rules command.
+  invsee:
+    description: See another person's inventory.
+  level:
+    description: Check player's level.
+  setspawn:
+    description: Set player spawn.
+  setminer:
+    description: Set miner spawn.
+  setredline:
+    description: Set redline spawn.
+  setarmorsmith:
+    description: Set armorsmith spawn.
+  setswordsmith:
+    description: Set swordsmith spawn.
+  setcompressor:
+    description: Set compressor spawn.
+  setdaily:
+    description: Set daily spawn.
+  setentrance:
+    description: Set entrance spawn.
+  setdefaultspawn:
+    description: Set default spawn.
+  setmines:
+    description: Set mines spawn.
+  spawn:
+    description: Teleport player to spawn.
+    aliases: [lobby, hub]
+  tutorial:
+    description: Tutorial for player.
+  testtutorial:
+    description: test.
+  daily:
+    description: Claim daily reward.
+  mines:
+    description: Teleport you to the mines.
+  discord:
+    description: Join the discord server.w
